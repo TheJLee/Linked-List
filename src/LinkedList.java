@@ -37,7 +37,7 @@ public class LinkedList {
 	/**
 	 * Appends the new data at the end of the linked list
 	 * 
-	 * @param New_Data 
+	 * @param New_Data This is the new data value that will inserted into a node.
 	 */
 	public void append (int New_Data)
 	{
@@ -55,8 +55,8 @@ public class LinkedList {
 	 * If the size is too big or negative, it throws and out of bounds
 	 * error.
 	 * 
-	 * @param Position
-	 * @return Data the position where its located in the linked list.
+	 * @param Position The potential position where its located in the linked list.
+	 * @return Data The number that is stored in data is returned
 	 */
 	public int at (int Position)
 	{
@@ -77,7 +77,7 @@ public class LinkedList {
 	 * Deletes the node at the position asked by the user. If it is too big
 	 * it returns an out of bounds error
 	 * 
-	 * @param Position
+	 * @param Position  The potential position where its located in the linked list.
 	 */
 	public void delete (int Position)
 	{
@@ -103,7 +103,7 @@ public class LinkedList {
 	}
 	/**
 	 * Pops the data at the end of the linked list
-	 * @return popped_data
+	 * @return popped_data This is the data that is from the popped node
 	 */
 	public int pop()
 	{
